@@ -1,0 +1,1 @@
+ALTER TABLE `conversaciones_chatbot` ADD `tipo` text NOT NULL;

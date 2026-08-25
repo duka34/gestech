@@ -1,0 +1,1 @@
+ALTER TABLE `historial_estado` ADD `motivo` text;
