@@ -129,11 +129,8 @@ function Dashboard() {
   ];
 
   return (
-    <AppShell title="Panel (adicional)">
+    <AppShell title="Panel Principal">
       <div className="space-y-6">
-        <Badge variant="outline" className="text-[11px] font-normal text-muted-foreground">
-          Vista resumen adicional — no forma parte de los requisitos funcionales
-        </Badge>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((s) => (
             <Card key={s.label} className="p-5 transition-shadow hover:shadow-md">
